@@ -1,0 +1,24 @@
+{
+  "name": "cypress-applitools-todomvc",
+  "version": "1.0.0",
+  "description": "Sample Cypress tests for todomvc app with visual regression testing capabilities with Applitools eyes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 8080",
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run"
+  },
+  "author": "Aleksandar Zeljkovic",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "todomvc-app-css": "^2.0.1",
+    "todomvc-common": "^1.0.1"
+  },
+
+  "devDependencies": {
+    "jasmine-core": "^2.0.0",
+    "cypress": "^10.0.1"
+  }
+}
